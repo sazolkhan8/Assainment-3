@@ -1,0 +1,1185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* Css vertical Line start*/
+.vl {
+    border-left: 3px solid #cdcccc99;
+    height: 40px;
+  }
+/* Css vertical Line start*/
+
+/* Header Section */
+
+header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(./images/bg-header.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding: 4rem;
+    justify-content: space-between;
+}
+.menu-bar>ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.menu-bar>ul>li{
+    list-style: none;
+}
+.menu-bar>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+.menu-bar>ul>li.drop-down{
+    position: relative;
+}
+.menu-bar>ul>li.drop-down ul{
+    display: none;
+    margin-top:;
+    position: absolute;
+    list-style: none;
+    background-color: #F3F3F399;
+    width: 250px;
+    border-radius: 12px;
+    
+}
+.menu-bar>ul>li.drop-down:hover ul{
+    display: block;
+}
+
+.menu-bar>ul>li.drop-down ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+.logo img{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.get-in button{
+    margin-top: -10px;
+    background: none;
+    background-color: #DF6951;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 152px;
+    height: 58px;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+
+.header-content{
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-text{
+    width: 680px;
+}
+.header-text h2{
+    color: white;
+    font-size: 58.51px;
+    font-weight: 700;
+}
+.searching-tools{
+    width: 700px;
+    height: 80px;
+    background-color:#F3F3F399 ;
+    color: #fff;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.searching-tools>div>h5>i{
+    margin-left: 10px;
+}
+.button button{
+    border: none;
+    background-color: #DF6951;
+    color: white;
+    padding: 15px 55px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.clint-side{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.scroll{
+    position: absolute;
+    bottom: -120px;
+    left: 10px;
+}
+.scroll img{
+    height: 200px;
+}
+
+
+/* Header Bottom */
+
+.header-bottom{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 120px;
+}
+
+.header-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+}
+.header-images img{
+    height: 100%;
+}
+
+/* Category-Section */
+
+.category-header{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.category-header span{
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 600;
+}
+.category-header h2{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: volkhov;
+    padding: 20px;
+}
+
+.category-guide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+.category-img img{
+    height: 50px;
+}
+
+.category-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: ;
+    align-items: center;
+    width: 280px;
+    z-index: 100;
+}
+
+.travel{
+    position: relative;
+    border-radius: 0 0 20px 20px;
+    padding: 50px 0;
+    box-shadow: 10px 10px 25px rgb(250, 246, 246),
+                -10px 30px 25px rgb(250, 246, 246) ;
+}
+
+.travel-circle{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #DF6951;
+    border-radius: 12px;
+    bottom: -20px;
+    left: -20px;
+    z-index: -1;
+}
+.category-heading h2{
+    color: #1E1D4C;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.category-text{
+    width: 70%;
+    text-align: center;
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+/* Honeymoon Section */
+.honeymoon-section{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 4rem 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.honeymoon-images{
+    display: flex;
+    padding: 5rem 5rem;
+}
+.honeymoon-package{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.ellipse-1{
+    position: absolute;
+    top: 0;
+}
+.ellipse-1 img{
+    height: 150px;
+}
+.ellipse-2{
+    position: absolute;
+    top: 140px;
+    left: -110px;
+}
+.ellipse-2 img{
+    height: 200px;
+}
+.ellipse-3{
+    position: absolute;
+    top: -20px;
+    left: 110px;
+}
+.ellipse-3 img{
+    height: 150px;
+}
+
+.homeymoon-content span{
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.homeymoon-content h2{
+    color: #181E4B;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.homeymoon-content p{
+    width: 580px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+.homeymoon-content button{
+    border: none;
+    background-color: #DF6951;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+}
+
+
+/* Booking-section */
+
+.booking-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+}
+
+.booking-header span{
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 700;
+}
+.booking-header h2{
+    color: #181E4B;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.booking-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+.booking-text h3{
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 700;
+}
+.booking-text p{
+    width: 400px;
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.booking-trip{
+    position: relative;
+    margin-right:200px ;
+    margin-top: 150px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 5px rgb(191, 190, 188);
+    border-radius: 16px;
+    padding: 25px;
+}
+.trip-img img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.trip-img:hover img{
+    transform: scale(1.1);
+}
+
+.trip-text h4{
+    color: #080809;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 0;
+}
+
+.trip-icon img{
+    background-color: ;
+    color: white;
+   
+}
+
+
+.trip-review{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.aeroplan img{
+    position: absolute;
+    right: 10px;
+    left: 0;
+    top: -150px;
+    z-index: -1;
+    height: 450px;
+}
+
+/* HOliday-section */
+.holiday-section{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+.holiday-img{
+    position: relative;
+}
+
+.holiday-text{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.holiday-line{
+    position: absolute;
+    top: 65%;
+    left: 45%;
+}
+
+/* Promotion Section */
+
+.promotion-section{
+    margin-top: 50px;
+    width: 80%;
+    padding: 5rem;
+}
+.promotion-header span{
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.promotion-header h2{
+    color:#181E4B;
+    font-size: 50px;
+    font-weight: 700;
+}
+.promotion-header p{
+    display: block;
+    width: 600px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5;
+    padding-bottom: 40px;
+}
+
+.promotion-header a{
+    text-decoration: none;
+    color: white;
+    background-color: #DF6951;
+    padding: 1.5rem 3rem;
+    border-radius: 16px;
+}
+
+.promotion-images{
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+.promotion-item{
+    position: relative;
+}
+.promotion-rate{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.promotion-rate span{
+    background-color: #DF6951;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border-radius: 12px;
+}
+.tawer-img img{
+
+}
+
+.promotion-tawer{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 930px;
+    display: flex;
+    align-items: flex-end;
+    z-index: -1;
+}
+
+/* Promotion-Bottom */
+.promotion-bottom{
+    margin-top: 150px;
+    display: flex;
+}
+.promotion-img img{
+    width:99.9%;
+}
+
+
+/* Tour Packages section */
+.tour-packages-section{
+    margin-top: 30px;
+    padding: 3rem 4rem;
+}
+.tour-header{
+    text-align: center;
+}
+.package-items{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.tour-header span{
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.tour-header h2{
+    width: 40%;
+    margin: 0 auto;
+    color: #181E4B;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.country-img{
+    position: relative;
+}
+.country-flag{
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+}
+
+.monitor-side{
+    margin-top: 35px;
+    display: flex;
+    gap: 50px;
+    color: grey;
+}
+.monitor-side div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rating{
+    margin-top: 10px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.rating h2{
+    color: #2F2F2F;
+    font-size: 30px;
+    font-weight: 700;
+}
+.rating img{
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+}
+.location-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #7D7D7D;
+}
+
+.price-rate{
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    padding: 10px 0;
+}
+.price-rate h2{
+    color:#DF6951;
+    font-size: 30px;
+    font-weight: 500;
+}
+.price-rate span{
+    color: #7D7D7D;
+    font-size: 20px;
+}
+
+.package-content p{
+    width: 390px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    line-height: 1.5;
+}
+.btn{
+    margin-top: 15px;
+    border: none;
+    background-color: #DF6951;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+}
+
+/* Client Review Section */
+
+.client-review{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('images/client-review_bg.png');
+    background-size: contain;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.client-header{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+}
+.client-header span{
+    color: #DF6951;
+    font-size: 18px;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+.client-header h2{
+    color: #181E4B;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.client{
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    background-color: #fff;
+    top: 55%;
+    left: 36%;
+}
+.client-img{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+.client-img img{
+    height: 100px;
+}
+.client p{
+    width: 80%;
+    padding: 0 20px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #000000;
+    font-size: 12px;
+}
+.client h4{
+    text-align: center;
+    color: #000000;
+    padding: 8px 0;
+    font-weight: 700;
+}
+
+.quotes{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.quotes img{
+    height: 50px;
+}
+
+.client-arrow{
+    position: absolute;
+    top: 30%;
+    display: flex;
+    gap: 320px;
+    margin-left: -70px;
+}
+.pagination{
+    position: absolute;
+    bottom: 15%;
+    left: 45%;
+}
+
+/* Footer Section */
+.footer-section{
+    position: relative;
+    margin-left: 100px;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 6rem;
+    width: 80%;
+}
+.footer-logo p{
+    color:#757095;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    width: 60%;
+}
+.social-icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.social-icons a{
+    color: #DF6951;
+    font-size: 22px;
+}
+.about-us h3,
+.destinations h3,
+.newsletter h3{
+    color: #181433;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 1.5rem 0;
+}
+.about-us ul li, .destinations ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+.about-us ul li a, .destinations ul li a{
+    text-decoration: none;
+    color: #181433;
+    font-size: 16px;
+    font-weight: 500;
+}
+.input-file{
+    display: flex;
+}
+.input-file input{
+    border: none;
+    outline: none;
+    background-color: #EEEEFF;
+    padding: 1rem;
+    width: 350px;
+}
+.input-file button{
+    border: none;
+    padding: 1.5rem;
+    width: 200px;
+    background-color: #DF6951;
+    color: white;
+    border-radius: 0 10px 10px 0;
+}
+
+.newsletter p{
+    margin-top: 10px;
+    padding: 20px 0;
+    color: #807f83;
+    font-size: 16px;
+    font-weight: 500;
+    width: 70%;
+}
+.footer-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    color: #181433;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width:992px){
+    header{
+        height: 600px;
+    }
+   
+    nav{
+        padding: 3rem 0;
+    }
+    .logo{
+        padding: 0.5rem 0;
+    }
+    .get-in button{
+        margin-left: 15px;
+        margin-top: 1px;
+    }
+    .header-content{
+        left: 50px;
+    }
+    .header-text{
+        width: 450px;
+    }
+    .header-text h2{
+        font-size: 30px;
+    }
+    .searching-tools{
+        width: 500px;
+        height: 60px;
+    }
+
+    /* Header Bottom */
+
+    .header-bottom{
+        height: 100px;
+    }
+    .header-images img{
+        width: 90px;
+    }
+
+    /* Category-Section */
+    .category-guide{
+        width: 90%;
+        gap: 20px;
+    }
+    .category-heading h2{
+        font-size: 16px;
+    }
+
+    /* Honeymoon Section */
+
+    .honeymoon-section{
+        flex-direction: column;
+    }
+
+    /* Booking-section */
+
+    .booking-section{
+        width: 80%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    /* Promotion Section */
+
+    .promotion-header h2{
+        width: 100%;
+        font-size: 30px;
+    }
+    .promotion-header p{
+        width: 500px;
+    }
+    .promotion-header a{
+        padding: 1rem 2rem;
+    }
+    .promotion-images{
+        margin-top: 100px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .promotion-rate span{
+        display: none;
+    }
+    .tawer-img img{
+        height: 400px;
+    }
+    .promotion-tawer{
+        margin-left: 200px;
+        margin-top: 550px;
+    }
+    
+    /* Tour Packages section */
+
+    .tour-packages-section{
+        padding: ;
+    }
+    .tour-header h2{
+        width: 60%;
+        font-size: 30px;
+    }
+    .package-items{
+        flex-direction: column;
+        width: 80%;
+        margin: 100px auto;
+        gap: 30px;
+    }
+
+    /* Client Review Section */
+    .client-header{
+        top: 0;
+        left: 20%;
+        margin: 0 auto;
+        width: 60%;
+    }
+    .client-header h2{
+        font-size: 30px;
+    }
+    .client{
+        width: 300px;
+        top: 40%;
+        left: 30%;
+        height: 250px;
+    }
+    .client-arrow{
+        gap: 170px;
+        margin-left: -70px;
+    }
+    .pagination{
+        display: none;
+    }
+
+    /* Footer Section */
+    .footer-section{
+        margin-top: -200px;
+        margin-left: 20px;
+    }
+    .footer-content{
+        grid-template-columns: repeat(2,1fr);
+        padding: 2rem;
+        gap: 100px;
+        padding-top: 0;
+    }
+    .input-file input{
+        width: 200px;
+    }
+    .input-file button{
+        width: 100px;
+    }
+}
+
+
+/* @media screen and (max-width:768px){
+    
+} */
+
+
+@media screen and (max-width:576px){
+    header{
+        height: 400px;
+    }
+    nav{
+        width: 100%;
+    }
+    .menu-bar>ul{
+        gap: 10px;
+    }
+    .menu-bar>ul>li>a{
+        font-size: 14px;
+    }
+    .logo img{
+        height: 30px;
+        margin-top: -5px;
+    }
+    .get-in button{
+        display: none;
+    }
+    .header-content{
+        left: 20px;
+        bottom: 30px;
+    }
+    .header-text{
+        width: 250px;
+    }
+    .header-text h2{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .searching-tools{
+        width: 350px;
+    }
+    .searching-tools>div>h5{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .searching-tools>div>h5>i{
+        margin-left: 2px;
+    }
+    .button button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .clint-side{
+        margin-top: 20px;
+        gap: 5px;
+        font-size: 12px;
+    }
+    /* Header Bottom */
+    .header-bottom{
+        height: auto;
+    }
+    .header-images{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* Category-Section */
+    .category-header{
+        margin-top: 10px;
+    }
+    .category-header span{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .category-header h2{
+        font-size: 16px;
+        font-weight: 500;
+        width: 130px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 5px;
+    }
+    .category-guide{
+        flex-direction: column;
+    }
+
+    /* Honeymoon Section */
+
+    .honeymoon-section img{
+        padding: 0;
+        width: 100%;
+    }
+    .ellipse-1, .ellipse-2{
+        display: none;
+    }
+    .honeymoon-images{
+        padding: 0;
+    }
+    .homeymoon-content span{
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .homeymoon-content h2{
+        font-size:24px;
+        font-weight: 500;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .homeymoon-content p{
+        width: 300px;
+    }
+    .homeymoon-content button{
+        width: 100%;
+        margin: ;
+    }
+    /* Booking-section */
+    .booking-header span{
+        font-size: 12px;
+        font-weight: 400;
+        display: block;
+        text-align: center;
+    }
+    .booking-header h2{
+        font-size: 16px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .booking-text p{
+        width: 250px;
+    }
+    .booking-trip{
+        width: 200px;
+        height: 320px;
+    }
+    .aeroplan img{
+        height: 200px;
+        top: -60px;
+        left: 50px;
+    }
+    /* HOliday-section */
+    .holiday-img img{
+        height: 200px;
+    }
+    .holiday-text{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    /* Promotion Section */
+    .promotion-section{
+        margin-top: 10px;
+        padding: 1rem;
+    }
+    .promotion-header span{
+        font-size: 12px;
+        font-weight: 400;
+        display: block;
+        text-align: center;
+    }
+    .promotion-header h2{
+        margin: 0 auto;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        padding: 5px;
+    }
+    .promotion-header p{
+        width: 350px;
+        text-align: center;
+    }
+    .promotion-header a{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+    }
+    .tawer-img img{
+        height: 200px;
+    }
+    .promotion-tawer{
+        margin-top: 450px;
+        margin-left: 180px;
+    }
+
+     /* Tour Packages section */
+     .tour-header span{
+        font-size: 12px;
+        font-weight: 400;
+     }
+     .tour-header h2{
+        font-size: 16px;
+        font-weight: 500;
+     }
+     .package-items{
+        width: 100%;
+     }
+     .country-img img{
+        width: 100%;
+     }
+     .country-flag img{
+        width: 90%;
+     }
+     .monitor-side{
+        font-size: 16px;
+        margin-top: 50px;
+        gap: 30px;
+     }
+     .rating h2{
+        font-size: 18px;
+        font-weight: 500;
+        padding:8px 0;
+     }
+     .price-rate h2, .price-rate span{
+        font-size: 16px;
+     }
+     .package-content p{
+        width: 250px;
+     }
+
+     /* Client Review Section */
+     .client-review img{
+        
+     }
+     .client-header{
+        top: -15%;
+     }
+     .client-header span{
+        font-size: 12px;
+        font-weight: 400;
+     }
+     .client-header h2{
+        font-size: 16px;
+        font-weight: 500;
+     }
+     .client{
+        top: 5%;
+        left: 10%;
+     }
+     .client p{
+        width: 90%;
+     }
+     /* Footer Section */
+     .footer-content{
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0 auto;
+        gap: 10px;
+     }
+     .input-file input{
+        width: 150px;
+        height: 60px;
+     }
+     .input-file button{
+        width: 90px;
+        height: 60px;
+        padding: 0.5rem;
+     }
+     .newsletter p{
+        width: 100%;
+     }
+     .copyright{
+        font-size: 12px;
+        margin-top: 10px;
+     }
+}
